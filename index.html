@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c35">
+  <meta name="description" content="Rashed Alabidi — Personal portfolio, projects, skills and ideas.">
+  <title>Rashed Alabidi — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Rashed Alabidi home"><span class="brand-mark">RA</span><span class="brand-name">Rashed Alabidi<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#journey" data-i18n="navJourney">Journey</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="lang-switch" id="langSwitch" type="button" aria-label="Switch language">العربية</button>
+        <a class="nav-cta" href="#contact" data-i18n="letsTalk">Let’s talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">PERSONAL PORTFOLIO · 2026</span></div>
+          <p class="hero-kicker" data-i18n="heroKicker">Hello, I’m</p>
+          <h1>Rashed<br><span>Alabidi</span><i>.</i></h1>
+          <h2 data-i18n="heroRole">IT Student · Aspiring Technologist · Creative Thinker</h2>
+          <p class="hero-text" data-i18n="heroText">I explore the space between technology, design, and useful ideas — turning curiosity into thoughtful digital experiences.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#projects" data-i18n="exploreWork">Explore my work <span>↗</span></a>
+            <a class="text-link" href="#about" data-i18n="moreAbout">More about me <span>↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <div><span class="meta-number">01</span><span data-i18n="metaOne">Curiosity first</span></div>
+            <div><span class="meta-number">02</span><span data-i18n="metaTwo">Build with purpose</span></div>
+          </div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card">
+            <div class="art-card-top"><span>RA / 01</span><span class="status-dot"></span></div>
+            <div class="monogram">R<span>A</span></div>
+            <div class="art-card-bottom"><span data-i18n="artCaption">IDEAS INTO EXPERIENCE</span><span>↗</span></div>
+          </div>
+          <div class="floating-note note-top"><span class="note-icon">✳</span><span data-i18n="noteDesign">Design-minded</span></div>
+          <div class="floating-note note-bottom"><span class="note-icon">⌘</span><span data-i18n="noteTech">Tech curious</span></div>
+          <div class="art-caption" data-i18n="artSide">A little curiosity<br>can go a long way.</div>
+        </div>
+      </div>
+      <div class="container scroll-cue"><span></span><small data-i18n="scroll">SCROLL TO EXPLORE</small></div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container strip-inner"><span data-i18n="stripText">TECHNOLOGY</span><b>✳</b><span data-i18n="stripDesign">DESIGN</span><b>✳</b><span data-i18n="stripIdeas">IDEAS</span><b>✳</b><span data-i18n="stripGrowth">CONTINUOUS GROWTH</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-col">
+        <div class="section-heading reveal"><p class="section-index">01 / <span data-i18n="aboutIndex">ABOUT</span></p><h2 data-i18n="aboutTitle">A curious mind,<br><em>always building.</em></h2></div>
+        <div class="about-content reveal">
+          <p class="lead" data-i18n="aboutLead">I’m Rashed, an Information Technology student with a strong interest in digital products, visual communication, and practical problem-solving.</p>
+          <p data-i18n="aboutBody">I enjoy learning by making: exploring a problem, shaping an idea, and turning it into something people can use. Alongside my technology journey, I bring a designer’s eye for clarity, detail, and meaningful experiences.</p>
+          <div class="about-facts">
+            <div><span class="fact-label" data-i18n="focusLabel">CURRENT FOCUS</span><strong data-i18n="focusValue">Information Technology</strong></div>
+            <div><span class="fact-label" data-i18n="approachLabel">MY APPROACH</span><strong data-i18n="approachValue">Learn · Design · Build</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-index">02 / <span data-i18n="projectsIndex">SELECTED WORK</span></p><h2 data-i18n="projectsTitle">Ideas taking<br><em>shape.</em></h2></div><p class="section-description" data-i18n="projectsDesc">A selection of personal concepts and digital explorations. Each one starts with a real need and a question worth solving.</p></div>
+        <div class="project-filters reveal" role="group" aria-label="Project filters">
+          <button class="filter active" data-filter="all" data-i18n="filterAll">All</button>
+          <button class="filter" data-filter="product" data-i18n="filterProduct">Digital products</button>
+          <button class="filter" data-filter="automation" data-i18n="filterAutomation">Automation</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured reveal" data-category="product">
+            <div class="project-visual visual-laqta"><div class="visual-window"><span class="window-dots">● ● ●</span><div class="laqta-symbol">لَ</div><div class="visual-lines"><i></i><i></i><i></i></div><small>LAQTA / LAGTA</small></div><span class="visual-number">01</span></div>
+            <div class="project-info"><div class="project-type" data-i18n="typeDigital">DIGITAL PRODUCT</div><h3>Laqta <span>لقطة</span></h3><p data-i18n="laqtaDesc">A personal knowledge space for saving links, articles, ideas, and quotes — designed to make collecting and revisiting useful content easier.</p><a class="project-link" href="#contact"><span data-i18n="projectEnquire">Project enquiry</span> ↗</a></div>
+          </article>
+          <article class="project-card reveal" data-category="product">
+            <div class="project-visual visual-sanad"><div class="sanad-mark">سَـنَد</div><div class="sanad-sub">HELP · SHARE · CONNECT</div><span class="visual-number">02</span></div>
+            <div class="project-info"><div class="project-type" data-i18n="typeConcept">PRODUCT CONCEPT</div><h3>Sanad <span>سَنَد</span></h3><p data-i18n="sanadDesc">An Arabic-first cooperation platform concept that connects people who need help with people who can offer it.</p><a class="project-link" href="#contact"><span data-i18n="projectEnquire">Project enquiry</span> ↗</a></div>
+          </article>
+          <article class="project-card reveal" data-category="automation">
+            <div class="project-visual visual-awn"><div class="awn-building"><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="awn-word">AWN / STUDENT SERVICES</span><span class="visual-number">03</span></div>
+            <div class="project-info"><div class="project-type" data-i18n="typeAutomation">AUTOMATION CONCEPT</div><h3>Awn Student Housing</h3><p data-i18n="awnDesc">A student-services automation concept focused on housing announcements, cleaning duties, and clearer communication.</p><a class="project-link" href="#contact"><span data-i18n="projectEnquire">Project enquiry</span> ↗</a></div>
+          </article>
+          <article class="project-card reveal" data-category="automation">
+            <div class="project-visual visual-knowledge"><div class="knowledge-ring">↗<span>AI</span></div><div class="knowledge-label">KNOWLEDGE<br>FLOW</div><span class="visual-number">04</span></div>
+            <div class="project-info"><div class="project-type" data-i18n="typeWorkflow">PERSONAL WORKFLOW</div><h3 data-i18n="knowledgeTitle">My Knowledge Flow</h3><p data-i18n="knowledgeDesc">An automation idea for collecting selected content, summarizing it with AI, and receiving a focused daily digest.</p><a class="project-link" href="#contact"><span data-i18n="projectEnquire">Project enquiry</span> ↗</a></div>
+          </article>
+        </div>
+        <p class="project-note" data-i18n="projectNote">Selected concepts and explorations. Project details and live demos can be added as they become available.</p>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container two-col">
+        <div class="section-heading reveal"><p class="section-index">03 / <span data-i18n="skillsIndex">CAPABILITIES</span></p><h2 data-i18n="skillsTitle">What I’m<br><em>growing.</em></h2><p class="section-description" data-i18n="skillsDesc">A developing toolkit shaped by study, experimentation, and hands-on projects.</p></div>
+        <div class="skills-content reveal">
+          <div class="skill-group"><div class="skill-head"><h3 data-i18n="skillTech">Technology</h3><span>01</span></div><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Supabase</span><span>n8n</span></div></div>
+          <div class="skill-group"><div class="skill-head"><h3 data-i18n="skillDesign">Design & communication</h3><span>02</span></div><div class="skill-tags"><span data-i18n="tagGraphic">Graphic design</span><span>Canva</span><span data-i18n="tagVisual">Visual communication</span><span data-i18n="tagWriting">Content writing</span></div></div>
+          <div class="skill-group"><div class="skill-head"><h3 data-i18n="skillThinking">Ways of working</h3><span>03</span></div><div class="skill-tags"><span data-i18n="tagProblem">Problem solving</span><span data-i18n="tagLearning">Self-directed learning</span><span data-i18n="tagProduct">Product thinking</span><span data-i18n="tagResearch">Research</span></div></div>
+          <p class="skills-note" data-i18n="skillsNote">Skills are presented as areas of practice and learning, not proficiency rankings.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-index">04 / <span data-i18n="journeyIndex">BACKGROUND</span></p><h2 data-i18n="journeyTitle">The learning<br><em>journey.</em></h2></div><p class="section-description" data-i18n="journeyDesc">A growing foundation in technology, communication, and leadership.</p></div>
+        <div class="journey-grid">
+          <div class="journey-column reveal"><h3 data-i18n="educationTitle">Education</h3><div class="timeline-item"><span class="timeline-dot"></span><small data-i18n="current">CURRENT</small><h4 data-i18n="itStudy">Information Technology</h4><p data-i18n="itStudyDesc">First-year university student. Building foundations in computing and information systems.</p><span class="timeline-meta" data-i18n="institutionPlaceholder">Add university name · Add dates</span></div></div>
+          <div class="journey-column reveal"><h3 data-i18n="learningTitle">Programs & learning</h3><div class="timeline-item"><span class="timeline-dot"></span><small>2026</small><h4>McKinsey.org Forward</h4><p data-i18n="forwardDesc">Completed a learning program focused on structured problem-solving, communication, productivity, and decision-making.</p></div><div class="timeline-item"><span class="timeline-dot"></span><small>2026</small><h4>Aspire Leaders Program</h4><p data-i18n="aspireDesc">Accepted into Cohort 2, 2026.</p></div></div>
+        </div>
+        <div class="credentials-note reveal"><span>✳</span><p data-i18n="credentialsNote">Add certificate links, dates, university details, and supporting documents here when ready.</p></div>
+      </div>
+    </section>
+
+    <section class="section ideas-section" id="ideas">
+      <div class="container">
+        <div class="section-top reveal"><div><p class="section-index">05 / <span data-i18n="ideasIndex">THOUGHTS & NOTES</span></p><h2 data-i18n="ideasTitle">Ideas worth<br><em>exploring.</em></h2></div><p class="section-description" data-i18n="ideasDesc">Notes, lessons, and perspectives from the process of learning and building.</p></div>
+        <div class="empty-ideas reveal"><div class="empty-icon">✳</div><div><h3 data-i18n="ideasEmptyTitle">The next idea starts here.</h3><p data-i18n="ideasEmptyText">Articles and short reflections will appear here. Add your first post when you’re ready.</p></div><span class="empty-count">COMING<br>SOON</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-wrap reveal">
+        <p class="section-index">06 / <span data-i18n="contactIndex">GET IN TOUCH</span></p>
+        <h2 data-i18n="contactTitle">Have an idea?<br><em>Let’s make it real.</em></h2>
+        <p class="contact-text" data-i18n="contactText">For collaborations, opportunities, or a thoughtful conversation, I’d be glad to hear from you.</p>
+        <a class="contact-email" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com <span>↗</span></a>
+        <div class="contact-bottom"><span data-i18n="contactReplace">Replace the email and social links with your real contact details before publishing.</span><a href="#home" data-i18n="backTop">Back to top ↑</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">RA</span><span class="brand-name">Rashed Alabidi<span class="brand-dot">.</span></span></a><span data-i18n="footerText">Designed with intention. Built with curiosity.</span><span>© <span id="year"></span> RA</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
